@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/loading_container"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <!--<ProgressBar-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:indeterminateDrawable="@drawable/loading_dialog_progressbar" />-->
+    <ImageView
+        android:id="@+id/iv_loading"
+        android:layout_width="100dp"
+        android:layout_height="119dp"
+        android:scaleType="fitXY"
+        />
+
+    <!--<TextView
+        android:id="@+id/id_tv_loading_dialog_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/loading"
+        android:textColor="#ffffff"
+        android:textSize="14sp" />-->
+
+</LinearLayout>
